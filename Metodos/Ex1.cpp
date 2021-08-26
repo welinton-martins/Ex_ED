@@ -7,11 +7,11 @@ Fahrenheit = (Celsius * 9/5) + 32;*/
 
 using namespace std;
 
-float celsius(int celsius) {
+float celsius(float celsius) {
     return (celsius  * 9/5) + 32;
 }
 
-float fahrenheit(int fahrenheit) {
+float fahrenheit(float fahrenheit) {
     return (fahrenheit - 32) * 5/9;
 }
 
